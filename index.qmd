@@ -1,5 +1,5 @@
 ---
-title: "solverism-quarto-blog"
+title: "Solverism"
 listing:
   contents: posts
   sort: "date desc"
