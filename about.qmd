@@ -1,6 +1,6 @@
 ---
 title: "Brandon Lee"
-image: profile.jpg
+image: profile.jpeg
 about:
   template: trestles
   links:
