@@ -8,6 +8,7 @@ website:
   repo-url: https://github.com/Blee1077/solverism-quarto-blog
   open-graph: true
   navbar:
+    logo: logo-96x96.png
     right:
       - text: "About"
         file: about.qmd
