@@ -139,6 +139,7 @@ ul.task-list li input[type="checkbox"] {
         </div>
       </div>
                           <div class="quarto-categories">
+                <div class="quarto-category">Medium Read</div>
                 <div class="quarto-category">Inflation</div>
                 <div class="quarto-category">Analysis</div>
                 <div class="quarto-category">Visualisation</div>
@@ -619,8 +620,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="overview-of-price-changes-for-all-categories" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="overview-of-price-changes-for-all-categories">Overview of Price Changes for All Categories</h2>
 <p>Let’s start with the big picture (quite literally), how did prices change when comparing the basket values of categories?</p>
-<p>Note that the <strong>index numbers presented in the graph below are accurate when rounding to whole numbers</strong>.</p>
-<p>Technical explanation - The numbers get more inaccurate as you go up category granularities due to the way that the index numbers are aggregated. I’m using the most granular dataset that contains index numbers of quaternary categories, these are then aggregated up to the tertiary category level using the harmonic mean weighted by the basket value of the quaternary categories within the tertiary category. This process repeats for the secondary and then the primary categories, the approximation error increasing going up with each category level.</p>
 <div class="callout-tip callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -632,6 +631,22 @@ This chart is interactive!
 </div>
 <div class="callout-body-container callout-body">
 <p>Hover your mouse over the sector to look at the index number of categories (if on mobile, tap and hold the name of the category). Clicking on a sector will focus on that particular category and its subcategories. There are 4 levels of categories but only 3 levels are shown at any one time for better performance.</p>
+</div>
+</div>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+The index numbers presented in the graph below are accurate when rounding to whole numbers!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Technical explanation - The numbers get more inaccurate as you go up category granularities due to the way that the index numbers are aggregated. I’m using the most granular dataset that contains index numbers of quaternary categories, these are then aggregated up to the tertiary category level using the harmonic mean weighted by the basket value of the quaternary categories within the tertiary category. This process repeats for the secondary and then the primary categories, the approximation error increasing going up with each category level.</p>
+</div>
 </div>
 </div>
 <div class="cell page-columns page-full" data-execution_count="21">
@@ -859,7 +874,7 @@ if (outputEl) {{
 </script>
 </div>
 </div>
-<p>Wow there’s a lot going on in that graph, but can definitely be seen that some secondary categories much more than others. Let’s take a look at the index values at the end of the graph to quickly look at which secondary categories increased the most.</p>
+<p>Wow there’s a lot going on in that graph, but can definitely be seen that some secondary categories are increasing much more than others. Let’s take a look at the index values at the end of the graph to quickly look at which secondary categories increased the most.</p>
 <div class="cell" data-execution_count="26">
 <div class="cell-output cell-output-display" data-execution_count="26">
 
